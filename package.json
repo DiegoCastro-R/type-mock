@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "ts-node-dev --respawn --pretty --transpile-only src/server.ts",
+    "start": "node build/server.js",
     "build": "tsc --build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
